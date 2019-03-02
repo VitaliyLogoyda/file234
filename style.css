@@ -1,0 +1,51 @@
+h2,h1{
+ color:darkorange;
+ font-wight:bold;
+ text-align:center;
+ }
+ .past {
+ color:green
+ }
+ .present {
+ color: violet
+ }
+ .future {
+ color:white
+ }
+ <style>
+a:link {
+  color: green; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: grey;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: darkred;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:link, a:visited {
+  background-color: #7FFFD4;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: green;
+}
+</style>
